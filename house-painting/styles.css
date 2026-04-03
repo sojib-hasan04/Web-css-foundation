@@ -1,0 +1,64 @@
+#house {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: #f0cda9;
+    border: 2px solid black;
+}
+
+#chimney {
+    position: absolute;
+    top: -100px;      /* house এর উপরের লাইনে নিচের দিক লাগবে */
+    left: 210px;
+
+    width: 80px;
+    height: 100px;    /* -100 + 100 = 0  → টেস্ট 44 */
+    border: 2px solid black;
+    background-color: #c9893a;
+
+    z-index: -1;
+}
+
+#roof {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 500px;
+    height: 110px;
+    border: 2px solid black;
+    background-color: #9b4b2a;
+}
+
+#window-1 {
+    position: absolute;
+    top: 165px;
+    left: 85px;
+
+    width: 130px;
+    height: 90px;
+    border: 2px solid black;
+    background-color: #7fc9ff;
+}
+
+#window-2 {
+    position: absolute;
+    top: 165px;
+    right: 85px;
+
+    width: 130px;
+    height: 90px;
+    border: 2px solid black;
+    background-color: #7fc9ff;
+}
+
+#door {
+    position: absolute;
+    bottom: 0px;
+
+    left: 190px;
+    width: 120px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: #6a3b1b;
+}
