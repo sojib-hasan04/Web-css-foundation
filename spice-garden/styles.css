@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.restaurant {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f172a;
+    color: white;
+    align-items: center;
+    padding: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.hero {
+    background-color: #0f172a;
+    padding: 5rem;
+    color: white;
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-color: darkcyan;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 999px;
+    margin: 0 1rem;
+}
+
+button:hover {
+    background-color: white;
+    color: #6366f1;
+    cursor: pointer;
+}
+
+.menu-section {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.menu-card {
+    max-width: 300px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #0f172a;
+    padding: 32px;
+    text-align: center;
+    color: white;
+}
